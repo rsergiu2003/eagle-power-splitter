@@ -456,29 +456,7 @@ design rules under a new name.</description>
 </element>
 </elements>
 <signals>
-<signal name="N$1">
-<contactref element="J1" pad="PWR"/>
-<contactref element="J5" pad="PWR"/>
-<contactref element="J4" pad="PWR"/>
-<contactref element="J3" pad="PWR"/>
-<contactref element="J2" pad="PWR"/>
-<contactref element="J6" pad="PWR"/>
-<wire x1="8.89" y1="21.59" x2="8.89" y2="19.05" width="0.762" layer="1"/>
-<wire x1="8.89" y1="19.05" x2="8.89" y2="16.24" width="0.762" layer="1"/>
-<wire x1="10.16" y1="22.86" x2="8.89" y2="21.59" width="0.762" layer="1"/>
-<wire x1="10.16" y1="22.86" x2="10.16" y2="23.13" width="0.762" layer="1"/>
-<wire x1="41.91" y1="23.13" x2="41.91" y2="22.225" width="0.762" layer="1"/>
-<wire x1="41.91" y1="22.225" x2="41.91" y2="16.24" width="0.762" layer="1"/>
-<wire x1="25.4" y1="21.59" x2="25.4" y2="19.05" width="0.762" layer="1"/>
-<wire x1="25.4" y1="19.05" x2="25.4" y2="16.24" width="0.762" layer="1"/>
-<wire x1="26.67" y1="22.86" x2="26.035" y2="22.225" width="0.762" layer="1"/>
-<wire x1="26.035" y1="22.225" x2="25.4" y2="21.59" width="0.762" layer="1"/>
-<wire x1="26.67" y1="22.86" x2="26.67" y2="23.13" width="0.762" layer="1"/>
-<wire x1="26.035" y1="22.225" x2="41.91" y2="22.225" width="0.762" layer="1"/>
-<wire x1="26.035" y1="22.225" x2="26.67" y2="23.13" width="0.762" layer="1"/>
-<wire x1="25.4" y1="19.05" x2="8.89" y2="19.05" width="0.762" layer="1"/>
-</signal>
-<signal name="N$2">
+<signal name="VCC">
 <contactref element="J1" pad="GNDBREAK"/>
 <contactref element="J5" pad="GNDBREAK"/>
 <contactref element="J4" pad="GNDBREAK"/>
@@ -509,6 +487,40 @@ design rules under a new name.</description>
 <wire x1="25.4" y1="19.685" x2="20.32" y2="24.765" width="0.762" layer="16"/>
 <wire x1="30.48" y1="19.685" x2="25.4" y2="19.685" width="0.762" layer="16"/>
 <wire x1="20.32" y1="24.765" x2="21.97" y2="26.13" width="0.762" layer="16"/>
+<polygon width="0.1524" layer="16">
+<vertex x="0" y="41.91"/>
+<vertex x="0" y="0"/>
+<vertex x="53.34" y="0"/>
+<vertex x="53.34" y="41.91"/>
+</polygon>
+</signal>
+<signal name="GND">
+<polygon width="0.1524" layer="1">
+<vertex x="0" y="41.91"/>
+<vertex x="0" y="0"/>
+<vertex x="53.34" y="0"/>
+<vertex x="53.34" y="41.91"/>
+</polygon>
+<contactref element="J1" pad="PWR"/>
+<contactref element="J5" pad="PWR"/>
+<contactref element="J4" pad="PWR"/>
+<contactref element="J3" pad="PWR"/>
+<contactref element="J2" pad="PWR"/>
+<contactref element="J6" pad="PWR"/>
+<wire x1="8.89" y1="21.59" x2="8.89" y2="19.05" width="0.762" layer="1"/>
+<wire x1="8.89" y1="19.05" x2="8.89" y2="16.24" width="0.762" layer="1"/>
+<wire x1="10.16" y1="22.86" x2="8.89" y2="21.59" width="0.762" layer="1"/>
+<wire x1="10.16" y1="22.86" x2="10.16" y2="23.13" width="0.762" layer="1"/>
+<wire x1="41.91" y1="23.13" x2="41.91" y2="22.225" width="0.762" layer="1"/>
+<wire x1="41.91" y1="22.225" x2="41.91" y2="16.24" width="0.762" layer="1"/>
+<wire x1="25.4" y1="21.59" x2="25.4" y2="19.05" width="0.762" layer="1"/>
+<wire x1="25.4" y1="19.05" x2="25.4" y2="16.24" width="0.762" layer="1"/>
+<wire x1="26.67" y1="22.86" x2="26.035" y2="22.225" width="0.762" layer="1"/>
+<wire x1="26.035" y1="22.225" x2="25.4" y2="21.59" width="0.762" layer="1"/>
+<wire x1="26.67" y1="22.86" x2="26.67" y2="23.13" width="0.762" layer="1"/>
+<wire x1="26.035" y1="22.225" x2="41.91" y2="22.225" width="0.762" layer="1"/>
+<wire x1="26.035" y1="22.225" x2="26.67" y2="23.13" width="0.762" layer="1"/>
+<wire x1="25.4" y1="19.05" x2="8.89" y2="19.05" width="0.762" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
